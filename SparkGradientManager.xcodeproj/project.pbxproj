@@ -14,6 +14,7 @@
 		2122CCC0280FDF9F00F14E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2122CCBF280FDF9F00F14E1C /* Assets.xcassets */; };
 		2122CCC3280FDF9F00F14E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2122CCC1280FDF9F00F14E1C /* LaunchScreen.storyboard */; };
 		2122CCC6280FDF9F00F14E1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CCC5280FDF9F00F14E1C /* main.m */; };
+		2122CCCF280FDFCC00F14E1C /* SparkGradientTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CCCD280FDFCC00F14E1C /* SparkGradientTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2122CCC2280FDF9F00F14E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2122CCC4280FDF9F00F14E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2122CCC5280FDF9F00F14E1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2122CCCD280FDFCC00F14E1C /* SparkGradientTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SparkGradientTools.m; sourceTree = "<group>"; };
+		2122CCCE280FDFCC00F14E1C /* SparkGradientTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparkGradientTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		2122CCB2280FDF9E00F14E1C /* SparkGradientManager */ = {
 			isa = PBXGroup;
 			children = (
+				2122CCCC280FDFCC00F14E1C /* SparkGradientTools */,
 				2122CCB3280FDF9E00F14E1C /* AppDelegate.h */,
 				2122CCB4280FDF9E00F14E1C /* AppDelegate.m */,
 				2122CCB6280FDF9E00F14E1C /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				2122CCC5280FDF9F00F14E1C /* main.m */,
 			);
 			path = SparkGradientManager;
+			sourceTree = "<group>";
+		};
+		2122CCCC280FDFCC00F14E1C /* SparkGradientTools */ = {
+			isa = PBXGroup;
+			children = (
+				2122CCCE280FDFCC00F14E1C /* SparkGradientTools.h */,
+				2122CCCD280FDFCC00F14E1C /* SparkGradientTools.m */,
+			);
+			path = SparkGradientTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2122CCCF280FDFCC00F14E1C /* SparkGradientTools.m in Sources */,
 				2122CCBB280FDF9E00F14E1C /* ViewController.m in Sources */,
 				2122CCB5280FDF9E00F14E1C /* AppDelegate.m in Sources */,
 				2122CCC6280FDF9F00F14E1C /* main.m in Sources */,

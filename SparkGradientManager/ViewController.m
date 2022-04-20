@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SparkGradientTools.h"
 @interface ViewController ()
 
 @end
@@ -15,7 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [SparkGradientTools.shared showNovelBgGradientColor:self.view];
+    
 }
 
 
